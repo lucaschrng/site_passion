@@ -140,3 +140,36 @@ nav ul li a:hover {
     font-size: 1.7rem;
     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
 }
+
+.page3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.page3 img {
+    height: 200px;
+    border-radius: 5000px;
+    border: solid 3px #fff;
+}
+
+.page3 a {
+    backdrop-filter: blur(10px);
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px 60px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: 500px;
+    border: solid 2px #fff;
+    transition: all 0.2s ease;
+}
+
+.page3 a:hover {
+    background-image: url(./images/instaBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
